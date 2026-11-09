@@ -1,32 +1,24 @@
-# 🚀 Intro
-**⭐ Thank you for ~~3K~~ 5K Stars! <3 <3**
+# Community GRUB Themes
 
-There are many great community made GRUB themes to spice up your bootloader before booting into your system proper. Unfortunately, they're scattered across multiple sites and it can be difficult to find good ones. As another user told me, the majority of themes on Pling (the largest host of GRUB themes currently) are fairly low effort and can be boring to trawl through. Hence, I decided to put together this page to bring attention to some decent themes I've found around the internet over time.
+[English](README.md) | [Bahasa Indonesia](README.id.md)
 
-# 🌟 Useful Links
+A community-maintained catalog to make it easier to discover GRUB bootloader themes. Browse each theme's original project page for its files, compatibility notes, and installation instructions.
 
-[GitZip](https://kinolien.github.io/gitzip/) - Download individual folders and files from Github repositories without having to download the entire repo. Asks for a Token, but seems to work without just fine.
+> This repository is a fork of [Jacksaur/Gorgeous-GRUB](https://github.com/Jacksaur/Gorgeous-GRUB). It is not the original project, and we do not claim ownership of the themes or third-party assets listed here. Their respective creators retain their rights, attribution, and licenses. This is, and will remain, a community project.
 
-[GRUB-Tweaks](https://github.com/VandalByte/grub-tweaks) - Multiple guides on various tweaks and additions you can make to further customize, or repair, your GRUB install.
+## Recently added themes (license checked)
 
-[Theme Tutorial](http://web.archive.org/web/20241209100014/http://wiki.rosalab.ru/en/index.php/Grub2_theme_tutorial) and [Theme References](http://web.archive.org/web/20241209094940/http://wiki.rosalab.ru/en/index.php/Grub2_theme_/_reference) - Pretty complex, but the best set of information I've managed to find so far. It may be easier to start by taking an existing theme and making edits to it yourself, rather than diving straight in and starting from scratch.
+These entries were checked against a license file in their source repository. The license applies to the upstream project; review its terms and any third-party assets before redistribution.
 
-[GRUB2 Theme Preview](https://github.com/hartwork/grub2-theme-preview) - Very useful software to preview GRUB themes without having to reboot your entire system. Requires a lot of dependencies (since it's spinning up a whole VM), but there's an easy command to install them all in the [GRUB-Tweaks](https://github.com/VandalByte/grub-tweaks?tab=readme-ov-file#-testing-your-grub-themes) repo.
+| Theme | Preview | Description | License |
+|---|---|---|---|
+| [RetroPunk](https://github.com/simontrost/RetroPunk) | [Screenshot](https://raw.githubusercontent.com/simontrost/RetroPunk/master/screenshot.png) | Retro pixel-style menu with a custom font and centered layout. | [GPL-3.0](https://github.com/simontrost/RetroPunk/blob/master/LICENSE) |
+| [Argon GRUB Theme](https://github.com/stuarthayhurst/argon-grub-theme) | [Source repository](https://github.com/stuarthayhurst/argon-grub-theme) | Configurable backgrounds, icons, fonts, and resolutions. | [GPL-3.0](https://github.com/stuarthayhurst/argon-grub-theme/blob/master/LICENCE.txt) |
+| [Uli GRUB Theme](https://github.com/ulitreuer/uli-grub-theme) | [Screenshot](https://raw.githubusercontent.com/ulitreuer/uli-grub-theme/main/screenshots/grub-theme.jpg) | Minimal widescreen layout with a boot countdown, progress bar, and keyboard hints. | [GPL-3.0](https://github.com/ulitreuer/uli-grub-theme/blob/main/LICENSE) |
+| [DGRUB](https://github.com/2KAbhishek/DGRUB) | [Source repository](https://github.com/2KAbhishek/DGRUB) | A dark, minimal GRUB theme. | [GPL-3.0](https://github.com/2KAbhishek/DGRUB/blob/main/LICENSE) |
+| [Distro GRUB Themes](https://github.com/AdisonCavani/distro-grub-themes) | [Live preview](https://k1ng.dev/distro-grub-themes/preview) | A collection of distribution- and device-specific GRUB themes. The upstream project is currently read-only. | [GPL-3.0](https://github.com/AdisonCavani/distro-grub-themes/blob/master/LICENSE) |
 
-[Background Cycler](https://github.com/Jacksaur/GRUB-Background-Cycler) - A script I made to cycle a theme between different backgrounds each time your system is rebooted.
-
-[Theme Installer (Community Made)](https://github.com/FLEXIY0/gorgeous-grub-installer) - Script created by FLEXIY0 that can automatically download and install a large amount of themes. May encounter errors on some edge-cases.
-
-
-# 🛠️ [Installing a theme](https://github.com/Jacksaur/Gorgeous-GRUB/blob/main/Installation.md)
-
-# 👍 [How to contribute](https://github.com/Jacksaur/Gorgeous-GRUB/blob/main/Contributing.md)
-
-# 🎨 Themes
-
->If you like a theme, please do consider giving it a rating on Pling or starring its repo on Github. It's very rare for anyone to rate on Pling and that's half the reason good themes are so hard to find. Plus, it always feels nice to see that people are enjoying the product you created.
-
-### ⚠ If your system is set up with Secureboot, this can cause custom fonts to fail to apply or not display entirely. [This forum post](https://bbs.archlinux.org/viewtopic.php?pid=2103579#p2103579) details how you can sign your font files to allow them to be displayed again. ⚠
+## Theme gallery
 
 |    |    |    |
 |:-------:|:-------:|:---------:|
@@ -70,7 +62,7 @@ There are many great community made GRUB themes to spice up your bootloader befo
 |[**CyberGRUB-2077**](https://github.com/adnksharp/CyberGRUB-2077)|[**Sleek (Set + Personalized)**](https://www.pling.com/p/1414997/)|[**Distro Themes (Set)**](https://www.pling.com/p/1482847/)|
 |    |    |    |
 |<img src="/Images/CyberXero.png" width="247">|<img src="/Images/Atomic.png" width="247">|<img src="/Images/Plasma.gif" width="247">|
-|[**CyberXero**](https://www.pling.com/p/1502415/)|[**Atomic**](https://www.pling.com/p/1200710/)|**Plasma ([Light](https://www.pling.com/p/1197062/)/[Dark](https://www.pling.com/p/1195799/))**|
+|[**CyberXero**](https://www.pling.com/p/1502415/)|[**Atomic**](https://github.com/lfelipe1501/Atomic-GRUB2-Theme)|**Plasma ([Light](https://www.pling.com/p/1197062/)/[Dark](https://www.pling.com/p/1195799/))**|
 |    |    |    |
 |<img src="/Images/BSOL.png" width="247">|<img src="/Images/GTG.png" width="247">|<img src="/Images/Grubby_Terminal.jpg" width="247">|
 |[**BSOL**](https://www.github.com/harishnkr/bsol)|[**Grand Theft Gentoo**](https://gitlab.com/imnotpua/grub_gtg/)|[**Grubby Terminal**](https://gitlab.com/perthshiretim/grubby-terminal)|

@@ -1,0 +1,61 @@
+name: Submit a GRUB theme
+description: Suggest a community-made GRUB theme for the catalog.
+title: "[Theme submission] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Only themes with a clearly stated license can be considered. Please link to the original project and its license file. Do not upload third-party theme assets unless their license permits redistribution.
+  - type: input
+    id: theme_name
+    attributes:
+      label: Theme name
+      placeholder: Name of the theme
+    validations:
+      required: true
+  - type: input
+    id: source_url
+    attributes:
+      label: Original project URL
+      description: Link to the creator's repository or official project page.
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: author
+    attributes:
+      label: Original author or maintainer
+      placeholder: Username or name
+    validations:
+      required: false
+  - type: input
+    id: license_name
+    attributes:
+      label: License name
+      placeholder: GPL-3.0, MIT, etc.
+    validations:
+      required: true
+  - type: input
+    id: license_url
+    attributes:
+      label: Direct license URL
+      description: Link directly to LICENSE, LICENCE, COPYING, or equivalent in the source project.
+      placeholder: https://github.com/owner/repository/blob/main/LICENSE
+    validations:
+      required: true
+  - type: input
+    id: preview_url
+    attributes:
+      label: Preview image URL
+      description: Prefer an image hosted by the original theme project.
+      placeholder: https://
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional notes
+      description: Mention notable features, supported variants, or licensing details for bundled assets.
+      render: markdown
+    validations:
+      required: false
