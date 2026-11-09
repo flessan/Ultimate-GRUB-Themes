@@ -1,24 +1,27 @@
-# Katalog Tema GRUB Komunitas
+# Ultimate GRUB Themes
 
 [English](README.md) | [Bahasa Indonesia](README.id.md)
 
-Katalog yang dikelola komunitas untuk mempermudah pencarian tema bootloader GRUB. Kunjungi halaman proyek asli setiap tema untuk mendapatkan berkas, catatan kompatibilitas, dan petunjuk pemasangannya.
+Pustaka komunitas untuk menemukan tema bootloader GRUB. Jelajahi galeri, buka proyek aslinya, lalu ikuti petunjuk pemasangan dari pembuat tema tersebut.
 
-> Repositori ini merupakan fork dari [Jacksaur/Gorgeous-GRUB](https://github.com/Jacksaur/Gorgeous-GRUB). Repositori ini bukan proyek orisinal dan kami tidak mengklaim kepemilikan atas tema maupun aset pihak ketiga yang tercantum di sini. Hak, atribusi, dan lisensi tetap berada pada pencipta masing-masing. Proyek ini adalah, dan akan selalu menjadi, proyek komunitas.
+| [Tema](#tema) | [Panduan singkat](#panduan-singkat) | [Panduan pemasangan](Installation.id.md) | [Kontribusi](Contributing.id.md) | [English](README.md) |
+|---|---|---|---|---|
 
-## Tema tambahan (lisensi telah diperiksa)
+> Repositori ini merupakan fork dari [Jacksaur/Gorgeous-GRUB](https://github.com/Jacksaur/Gorgeous-GRUB). Repositori ini bukan proyek orisinal dan kami tidak mengklaim kepemilikan atas tema maupun aset pihak ketiga yang tercantum. Hak, atribusi, dan lisensi tetap berada pada pencipta masing-masing. Proyek ini adalah, dan akan selalu menjadi, proyek komunitas.
 
-Entri berikut telah diperiksa dan repositori sumbernya menyediakan berkas lisensi. Lisensi tersebut berlaku untuk proyek sumber; periksa ketentuan dan lisensi aset pihak ketiga sebelum mendistribusikan ulang.
+## Panduan singkat
 
-| Tema | Pratinjau | Deskripsi | Lisensi |
-|---|---|---|---|
-| [RetroPunk](https://github.com/simontrost/RetroPunk) | [Tangkapan layar](https://raw.githubusercontent.com/simontrost/RetroPunk/master/screenshot.png) | Menu bergaya piksel retro dengan font khusus dan tata letak terpusat. | [GPL-3.0](https://github.com/simontrost/RetroPunk/blob/master/LICENSE) |
-| [Argon GRUB Theme](https://github.com/stuarthayhurst/argon-grub-theme) | [Repositori sumber](https://github.com/stuarthayhurst/argon-grub-theme) | Latar belakang, ikon, font, dan resolusi yang dapat dikonfigurasi. | [GPL-3.0](https://github.com/stuarthayhurst/argon-grub-theme/blob/master/LICENCE.txt) |
-| [Uli GRUB Theme](https://github.com/ulitreuer/uli-grub-theme) | [Tangkapan layar](https://raw.githubusercontent.com/ulitreuer/uli-grub-theme/main/screenshots/grub-theme.jpg) | Tata letak minimalis untuk layar lebar dengan hitung mundur boot, bilah progres, dan petunjuk keyboard. | [GPL-3.0](https://github.com/ulitreuer/uli-grub-theme/blob/main/LICENSE) |
-| [DGRUB](https://github.com/2KAbhishek/DGRUB) | [Repositori sumber](https://github.com/2KAbhishek/DGRUB) | Tema GRUB gelap dengan tampilan minimalis. | [GPL-3.0](https://github.com/2KAbhishek/DGRUB/blob/main/LICENSE) |
-| [Distro GRUB Themes](https://github.com/AdisonCavani/distro-grub-themes) | [Pratinjau langsung](https://k1ng.dev/distro-grub-themes/preview) | Kumpulan tema GRUB untuk berbagai distribusi dan perangkat. Proyek sumber saat ini berada dalam status hanya-baca. | [GPL-3.0](https://github.com/AdisonCavani/distro-grub-themes/blob/master/LICENSE) |
+| Langkah | Yang perlu dilakukan |
+|---|---|
+| **1. Cari tema** | Jelajahi galeri **Tema** di bawah, lalu pilih desain yang kamu sukai. |
+| **2. Buka repositorinya** | Klik nama tema untuk mengunjungi repositori atau halaman proyek milik pembuat aslinya. |
+| **3. Baca petunjuknya** | Ikuti petunjuk pemasangan dari proyek tersebut. Setiap tema dapat menggunakan installer, direktori, atau konfigurasi yang berbeda. |
+| **4. Periksa sebelum menjalankan** | Ragu dengan perintah instalasi? Buka kode sumber repositori dan periksa skripnya terlebih dahulu. Jika kamu mempercayai proyek tersebut dan memahami fungsi perintahnya, salin perintah instalasi dari dokumentasi upstream lalu jalankan sesuai petunjuk. Berhati-hatilah terutama pada perintah yang menggunakan `sudo` atau menyalurkan skrip unduhan langsung ke shell. |
+| **5. Laporkan masalah** | Untuk masalah instalasi, tampilan, atau kompatibilitas, buat issue di repositori tema yang kamu pasang. Gunakan halaman Issues **katalog ini** untuk melaporkan tautan katalog yang rusak, entri yang keliru, atribusi/lisensi yang hilang, atau mengusulkan tema baru. |
 
-## Galeri tema
+**Catatan kompatibilitas:** Tema dikelola oleh pembuat yang berbeda dan tidak diuji pada setiap perangkat, distribusi, versi GRUB, mode firmware, maupun konfigurasi grafis. Periksa dokumentasi upstream untuk mengetahui persyaratan dan keterbatasan sebelum memasang tema.
+
+## Tema
 
 |    |    |    |
 |:-------:|:-------:|:---------:|
@@ -93,3 +96,17 @@ Entri berikut telah diperiksa dan repositori sumbernya menyediakan berkas lisens
 |    |    |    |
 |<img src="/Images/Satisfactory.gif" width="247">|<img src="/Images/Placeholder.png" width="247">|<img src="Images/Placeholder.png" width="247">|
 |[**Satisfactory (Set)**](https://github.com/Spokloo/satisfactory-grub-themes)|-|-|
+
+|    |    |    |
+|:-------:|:-------:|:---------:|
+|<img src="https://raw.githubusercontent.com/simontrost/RetroPunk/master/screenshot.png" width="247" alt="Pratinjau tema GRUB RetroPunk">|<img src="https://raw.githubusercontent.com/ulitreuer/uli-grub-theme/main/screenshots/grub-theme.jpg" width="247" alt="Pratinjau tema GRUB Uli">|<img src="https://raw.githubusercontent.com/mateosss/matter/develop/.docs/matter.gif" width="247" alt="Pratinjau animasi tema GRUB Matter">|
+|[**RetroPunk**](https://github.com/simontrost/RetroPunk) ([GPL-3.0](https://github.com/simontrost/RetroPunk/blob/master/LICENSE))|[**Uli GRUB Theme**](https://github.com/ulitreuer/uli-grub-theme) ([GPL-3.0](https://github.com/ulitreuer/uli-grub-theme/blob/main/LICENSE))|[**Matter**](https://github.com/mateosss/matter) ([Boost 1.0](https://github.com/mateosss/matter/blob/develop/LICENSE))|
+|    |    |    |
+|<img src="https://i.imgur.com/OHGyR2N.gif" width="247" alt="Pratinjau tema GRUB Poly Dark">|<img src="https://raw.githubusercontent.com/mtkb01/g2min/main/showcase.png" width="247" alt="Pratinjau tema GRUB g2min">|<img src="https://raw.githubusercontent.com/sarbojitrana/grub-themes/main/themes/jarvis/preview.png" width="247" alt="Pratinjau tema JARVIS dari koleksi GRUB Themes">|
+|[**Poly Dark**](https://github.com/shvchk/poly-dark) ([MIT](https://github.com/shvchk/poly-dark/blob/master/LICENSE))|[**g2min**](https://github.com/mtkb01/g2min) ([MIT](https://github.com/mtkb01/g2min/blob/main/LICENSE), diarsipkan)|[**GRUB Themes (koleksi TUI)**](https://github.com/sarbojitrana/grub-themes) ([MIT](https://github.com/sarbojitrana/grub-themes/blob/main/LICENSE))|
+|    |    |    |
+|<img src="/Images/Placeholder.png" width="247" alt="Pratinjau Argon tidak disertakan dalam katalog">|<img src="/Images/Placeholder.png" width="247" alt="Pratinjau DGRUB tidak disertakan dalam katalog">|<img src="/Images/Placeholder.png" width="247" alt="Pratinjau Distro GRUB Themes tidak disertakan dalam katalog">|
+|[**Argon GRUB Theme**](https://github.com/stuarthayhurst/argon-grub-theme) ([GPL-3.0](https://github.com/stuarthayhurst/argon-grub-theme/blob/master/LICENCE.txt))|[**DGRUB**](https://github.com/2KAbhishek/DGRUB) ([GPL-3.0](https://github.com/2KAbhishek/DGRUB/blob/main/LICENSE))|[**Distro GRUB Themes**](https://github.com/AdisonCavani/distro-grub-themes) ([GPL-3.0](https://github.com/AdisonCavani/distro-grub-themes/blob/master/LICENSE))|
+|    |    |    |
+|<img src="/Images/Placeholder.png" width="247" alt="Pratinjau tema GRUB Tartarus">|<img src="https://raw.githubusercontent.com/mtkb01/g2min/main/showcase.png" width="247" alt="Pratinjau tema GRUB g2min">|<img src="/Images/Placeholder.png" width="247" alt="Koleksi pengelola tema GRUB">|
+|[**Tartarus GRUB**](https://github.com/AllJavi/tartarus-grub) ([MIT](https://github.com/AllJavi/tartarus-grub/blob/master/LICENSE))|[**g2min (16:9 / 4:3)**](https://github.com/mtkb01/g2min) ([MIT](https://github.com/mtkb01/g2min/blob/main/LICENSE))|[**Koleksi JARVIS / Gotham / Arachne**](https://github.com/sarbojitrana/grub-themes) ([MIT](https://github.com/sarbojitrana/grub-themes/blob/main/LICENSE))|

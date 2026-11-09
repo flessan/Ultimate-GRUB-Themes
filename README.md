@@ -1,24 +1,27 @@
-# Community GRUB Themes
+# Ultimate GRUB Themes
 
 [English](README.md) | [Bahasa Indonesia](README.id.md)
 
-A community-maintained catalog to make it easier to discover GRUB bootloader themes. Browse each theme's original project page for its files, compatibility notes, and installation instructions.
+A community-maintained library for discovering GRUB bootloader themes. Browse the gallery, open the original project, and follow its own installation instructions.
 
-> This repository is a fork of [Jacksaur/Gorgeous-GRUB](https://github.com/Jacksaur/Gorgeous-GRUB). It is not the original project, and we do not claim ownership of the themes or third-party assets listed here. Their respective creators retain their rights, attribution, and licenses. This is, and will remain, a community project.
+| [Themes](#themes) | [Quick guide](#quick-guide) | [Installation guide](Installation.md) | [Contributing](Contributing.md) | [Bahasa Indonesia](README.id.md) |
+|---|---|---|---|---|
 
-## Recently added themes (license checked)
+> This repository is a fork of [Jacksaur/Gorgeous-GRUB](https://github.com/Jacksaur/Gorgeous-GRUB). It is not the original project, and we do not claim ownership of the listed themes or third-party assets. Their respective creators retain their rights, attribution, and licenses. This is, and will always be, a community project.
 
-These entries were checked against a license file in their source repository. The license applies to the upstream project; review its terms and any third-party assets before redistribution.
+## Quick guide
 
-| Theme | Preview | Description | License |
-|---|---|---|---|
-| [RetroPunk](https://github.com/simontrost/RetroPunk) | [Screenshot](https://raw.githubusercontent.com/simontrost/RetroPunk/master/screenshot.png) | Retro pixel-style menu with a custom font and centered layout. | [GPL-3.0](https://github.com/simontrost/RetroPunk/blob/master/LICENSE) |
-| [Argon GRUB Theme](https://github.com/stuarthayhurst/argon-grub-theme) | [Source repository](https://github.com/stuarthayhurst/argon-grub-theme) | Configurable backgrounds, icons, fonts, and resolutions. | [GPL-3.0](https://github.com/stuarthayhurst/argon-grub-theme/blob/master/LICENCE.txt) |
-| [Uli GRUB Theme](https://github.com/ulitreuer/uli-grub-theme) | [Screenshot](https://raw.githubusercontent.com/ulitreuer/uli-grub-theme/main/screenshots/grub-theme.jpg) | Minimal widescreen layout with a boot countdown, progress bar, and keyboard hints. | [GPL-3.0](https://github.com/ulitreuer/uli-grub-theme/blob/main/LICENSE) |
-| [DGRUB](https://github.com/2KAbhishek/DGRUB) | [Source repository](https://github.com/2KAbhishek/DGRUB) | A dark, minimal GRUB theme. | [GPL-3.0](https://github.com/2KAbhishek/DGRUB/blob/main/LICENSE) |
-| [Distro GRUB Themes](https://github.com/AdisonCavani/distro-grub-themes) | [Live preview](https://k1ng.dev/distro-grub-themes/preview) | A collection of distribution- and device-specific GRUB themes. The upstream project is currently read-only. | [GPL-3.0](https://github.com/AdisonCavani/distro-grub-themes/blob/master/LICENSE) |
+| Step | What to do |
+|---|---|
+| **1. Find a theme** | Browse the **Themes** gallery below and choose the design you like. |
+| **2. Open its repository** | Click the theme name to visit the original author's repository or project page. |
+| **3. Read the instructions** | Follow the installation guide provided by that project. Each theme may use a different installer, directory, or configuration. |
+| **4. Review before running** | Not sure about an install command? Open the repository's source code and inspect its scripts first. If you trust the project and understand what the command does, copy the installation command from the upstream instructions and run it as documented. Be especially careful with commands that use `sudo` or pipe a downloaded script into a shell. |
+| **5. Report a problem** | For installation, rendering, or compatibility bugs, open an issue in the repository of the theme you installed. Use the Issues page of **this catalog** for broken catalog links, incorrect entries, missing attribution/license details, or suggestions for new themes. |
 
-## Theme gallery
+**Compatibility note:** Themes are maintained by different authors and are not tested on every device, distribution, GRUB version, firmware mode, or graphics setup. Check the upstream documentation for requirements and known limitations before installing.
+
+## Themes
 
 |    |    |    |
 |:-------:|:-------:|:---------:|
@@ -93,3 +96,17 @@ These entries were checked against a license file in their source repository. Th
 |    |    |    |
 |<img src="/Images/Satisfactory.gif" width="247">|<img src="/Images/Placeholder.png" width="247">|<img src="Images/Placeholder.png" width="247">|
 |[**Satisfactory (Set)**](https://github.com/Spokloo/satisfactory-grub-themes)|-|-|
+
+|    |    |    |
+|:-------:|:-------:|:---------:|
+|<img src="https://raw.githubusercontent.com/simontrost/RetroPunk/master/screenshot.png" width="247" alt="RetroPunk GRUB theme preview">|<img src="https://raw.githubusercontent.com/ulitreuer/uli-grub-theme/main/screenshots/grub-theme.jpg" width="247" alt="Uli GRUB theme preview">|<img src="https://raw.githubusercontent.com/mateosss/matter/develop/.docs/matter.gif" width="247" alt="Matter GRUB theme animated preview">|
+|[**RetroPunk**](https://github.com/simontrost/RetroPunk) ([GPL-3.0](https://github.com/simontrost/RetroPunk/blob/master/LICENSE))|[**Uli GRUB Theme**](https://github.com/ulitreuer/uli-grub-theme) ([GPL-3.0](https://github.com/ulitreuer/uli-grub-theme/blob/main/LICENSE))|[**Matter**](https://github.com/mateosss/matter) ([Boost 1.0](https://github.com/mateosss/matter/blob/develop/LICENSE))|
+|    |    |    |
+|<img src="https://i.imgur.com/OHGyR2N.gif" width="247" alt="Poly Dark GRUB theme preview">|<img src="https://raw.githubusercontent.com/mtkb01/g2min/main/showcase.png" width="247" alt="g2min GRUB theme preview">|<img src="https://raw.githubusercontent.com/sarbojitrana/grub-themes/main/themes/jarvis/preview.png" width="247" alt="JARVIS theme preview from GRUB Themes collection">|
+|[**Poly Dark**](https://github.com/shvchk/poly-dark) ([MIT](https://github.com/shvchk/poly-dark/blob/master/LICENSE))|[**g2min**](https://github.com/mtkb01/g2min) ([MIT](https://github.com/mtkb01/g2min/blob/main/LICENSE), archived)|[**GRUB Themes (TUI collection)**](https://github.com/sarbojitrana/grub-themes) ([MIT](https://github.com/sarbojitrana/grub-themes/blob/main/LICENSE))|
+|    |    |    |
+|<img src="/Images/Placeholder.png" width="247" alt="Argon GRUB theme preview not included in this catalog">|<img src="/Images/Placeholder.png" width="247" alt="DGRUB preview not included in this catalog">|<img src="/Images/Placeholder.png" width="247" alt="Distro GRUB Themes preview not included in this catalog">|
+|[**Argon GRUB Theme**](https://github.com/stuarthayhurst/argon-grub-theme) ([GPL-3.0](https://github.com/stuarthayhurst/argon-grub-theme/blob/master/LICENCE.txt))|[**DGRUB**](https://github.com/2KAbhishek/DGRUB) ([GPL-3.0](https://github.com/2KAbhishek/DGRUB/blob/main/LICENSE))|[**Distro GRUB Themes**](https://github.com/AdisonCavani/distro-grub-themes) ([GPL-3.0](https://github.com/AdisonCavani/distro-grub-themes/blob/master/LICENSE))|
+|    |    |    |
+|<img src="/Images/Placeholder.png" width="247" alt="Tartarus GRUB theme preview">|<img src="https://raw.githubusercontent.com/mtkb01/g2min/main/showcase.png" width="247" alt="g2min GRUB theme preview">|<img src="/Images/Placeholder.png" width="247" alt="GRUB Themes manager collection">|
+|[**Tartarus GRUB**](https://github.com/AllJavi/tartarus-grub) ([MIT](https://github.com/AllJavi/tartarus-grub/blob/master/LICENSE))|[**g2min (16:9 / 4:3)**](https://github.com/mtkb01/g2min) ([MIT](https://github.com/mtkb01/g2min/blob/main/LICENSE))|[**JARVIS / Gotham / Arachne collection**](https://github.com/sarbojitrana/grub-themes) ([MIT](https://github.com/sarbojitrana/grub-themes/blob/main/LICENSE))|
