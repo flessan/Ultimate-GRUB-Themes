@@ -6,7 +6,7 @@ Repositori ini merupakan katalog yang dikelola komunitas. Kontribusi berupa tema
 
 ## Mengajukan tema
 
-Buat pull request untuk menambahkan tema ke galeri, atau gunakan formulir issue pengajuan tema untuk mengusulkan entri. Sertakan:
+Buat pull request untuk menambahkan tema ke katalog bersama [THEMES.md](THEMES.md), atau gunakan formulir issue pengajuan tema untuk mengusulkan entri. Simpan seluruh entri tema hanya di berkas tersebut agar semua terjemahan README menggunakan katalog yang sama. Sertakan:
 
 - Nama tema dan tautan resmi ke repositori atau halaman proyek aslinya.
 - Gambar pratinjau yang dihosting oleh pembuat tema, atau berkas pratinjau yang tersedia di proyek sumber.
@@ -27,7 +27,7 @@ Tema tanpa lisensi yang dinyatakan dengan jelas tidak dapat ditambahkan. Jangan 
 
 ## Daftar periksa pull request
 
-Sebelum membuat pull request, periksa URL sumber, URL lisensi, dan gambar pratinjau. Berikan kredit kepada pembuat aslinya dan tandai karya turunan dengan jelas. Batasi perubahan pada katalog tema dan dokumentasi pendukungnya.
+Sebelum membuat pull request, periksa URL sumber, URL lisensi, dan gambar pratinjau. Berikan kredit kepada pembuat aslinya dan tandai karya turunan dengan jelas. Tambahkan, ubah, atau hapus entri tema hanya di [THEMES.md](THEMES.md); jangan menyalin galeri tema ke README yang diterjemahkan.
 
 ## Melaporkan masalah
 

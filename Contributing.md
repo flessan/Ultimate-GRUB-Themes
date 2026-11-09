@@ -6,7 +6,7 @@ This is a community-maintained catalog. Contributions of original themes and wel
 
 ## Submit a theme
 
-Open a pull request that adds the theme to the gallery, or use the theme-submission issue form to propose an entry. Include:
+Open a pull request that adds the theme to the shared [THEMES.md](THEMES.md) catalog, or use the theme-submission issue form to propose an entry. Keep all theme entries in that single file so every README translation uses the same catalog. Include:
 
 - Theme name and a canonical link to its original repository or project page.
 - A preview image hosted by the theme's author, or a preview file already included in the source project.
@@ -27,7 +27,7 @@ Themes without a clearly stated license are not eligible for inclusion. Do not a
 
 ## Pull request checklist
 
-Before opening a pull request, verify the source URL, license URL, and preview. Credit the original creator and clearly identify any derivative work. Keep changes focused on the theme catalog and its supporting documentation.
+Before opening a pull request, verify the source URL, license URL, and preview. Credit the original creator and clearly identify any derivative work. Add, update, or remove theme entries only in [THEMES.md](THEMES.md); do not copy the theme gallery into translated README files.
 
 ## Reporting an issue
 
